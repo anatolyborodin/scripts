@@ -2,7 +2,7 @@
 
 cd /usr/src &&
 	git fetch -v --all &&
-	git reset --hard &&
+	git checkout -f local &&
 	git clean -d -x &&
 	git pull -v &&
-	git push -v origin +local:local
+	git push -v -f origin local:local
