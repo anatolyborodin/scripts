@@ -1,7 +1,7 @@
 #!/bin/sh
 
 COUNT=10
-LENGTHS="8 10 12"
+LENGTHS="10 13 16"
 
 for l in ${LENGTHS}; do
 	echo "${l} character(s)"
